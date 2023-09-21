@@ -1,7 +1,7 @@
 import AllPosts from '../../components/posts/all-posts';
 import { getAllPosts } from '../../lib/posts-util';
 
-function AllPostspage() {
+function AllPostspage(props) {
     return <AllPosts posts={props.posts}/>
 }
 
