@@ -21,7 +21,6 @@ export default async function handler(req, res) {
 
     let client;
 
-    ////keaBlog:4M1AKGswkYExbVCN@cluster0.rpbonr1.mongodb.net/?retryWrites=true&w=majority
 
     const connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_clustername}.rpbonr1.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`;
 
